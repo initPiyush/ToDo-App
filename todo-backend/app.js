@@ -4,7 +4,7 @@ const path = require('path');
 // External Module
 const express = require('express');
 const { default: mongoose } = require('mongoose');
-const DB_PATH = "mongodb+srv://piyush:atlasPiyush25@mongo.dqkw5g0.mongodb.net/todo?retryWrites=true&w=majority&appName=CompleteCoding";
+const DB_PATH = "MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/myDB?retryWrites=true&w=majority";
 const cors = require('cors');
 
 //Local Module

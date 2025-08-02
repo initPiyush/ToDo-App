@@ -1,0 +1,11 @@
+MULTER
+-- When a client uploads a file (like an image, video, or document) via a form in HTML with enctype="multipart/form-data", Express can't handle that data directly. That's where multer comes in — it parses the form data and stores the file on your server (or in memory, depending on configuration).
+✅ Key Features:
+1. Handles file uploads (single or multiple).
+2. Saves uploaded files to disk, memory, or can be connected to cloud storage.
+3. Gives access to file metadata like name, size, mimetype, etc.
+
+
+Do this:
+in the edit-home form section
+<form action ="/host/<%=editing ? "edit-home" : "add-home" %>" method="POST" enctype = "multipart/form-data"
